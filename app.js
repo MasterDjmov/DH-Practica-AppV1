@@ -37,7 +37,12 @@ switch(process.argv[2])
         console.table(ListarTareas());
         break;
     default:
-        console.log("No entiendo que quieres decir");
+        console.log(`No entiendo que quieres decir
+            ----------------------------------------
+            Acciones validas: listar
+            ---------------------------------------
+            `);
+        
 }
 
 
